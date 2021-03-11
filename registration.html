@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="description" content="cars.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Registration</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="func.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+
+        <div class="container">
+
+            <ul class="nav navbar-nav">
+                <li><a href="main.html">Cars</a></li>
+                <li><a href="signin.html">Sign in</a></li>
+                <li class="active"><a href="registration.html">Registration</a></li>
+            </ul>
+
+        </div>
+
+    </nav>
+    <br /><br /><br /><br />
+    <div class="container">
+
+        <h2>Registration</h2>
+
+        <form id="form" class="form-signin">
+
+            <label for="email" class="sr-only">Email address</label>
+            <input type="email" id="email" class="form-control" placeholder="Email address" required>
+            <small></small>
+
+            <label for="password" class="sr-only">Password</label>
+            <input type="password" id="password" class="form-control" placeholder="Password" required>
+            <small></small>
+
+            <label for="password_repeat" class="sr-only">Password</label>
+            <input type="password" id="password_repeat" class="form-control" placeholder="Repeat your password" required>
+            <small></small>
+
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="agreement" required> I agree with the terms
+                </label>
+            </div>
+
+            <button class="btn btn-md btn-primary btn-block" type="submit" id="submit">Submit</button>
+            <button class="btn btn-md btn-primary btn-block" type="reset">Reset</button>
+
+        </form>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <hr>
+        <footer><p>All Rights Reserved. Cars.com &copy; 2021.</p></footer>
+    </div>
+</body>
+
+</html>
